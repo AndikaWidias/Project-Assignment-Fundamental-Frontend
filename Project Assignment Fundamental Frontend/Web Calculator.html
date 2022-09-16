@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Iphone Style </title>
+    <link rel="stylesheet" href="asset/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="iphone bg-light">
+        <table class="second-table rounded-5">
+            <tr>
+                <td colspan="4" class="total result rounded-5"><span id="iphoneTotalprevious"></span></td>
+            </tr>
+            <tr>
+                <td colspan="4" class="total rounded-5"><span id="iphoneTotal"></span></td>
+            </tr>
+            <tr>
+                <td><button onclick="allclear()" class="aaa rounded-3">AC</button></td>
+                <td><button onclick="menfi()" class="aaa rounded-3">+/-</button></td>
+                <td><button onclick="Percent()" class="aaa rounded-3">%</button></td>
+                <td><button onclick="bolme()" class="iphone-operation rounded-3">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="sec(7)" class="rounded-3">7</button></td>
+                <td><button onclick="sec(8)" class="rounded-3">8</button></td>
+                <td><button onclick="sec(9)" class="rounded-3">9</button></td>
+                <td><button onclick="multiple()" class="iphone-operation rounded-3">*</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="sec(4)" class="rounded-3">4</button></td>
+                <td><button onclick="sec(5)" class="rounded-3">5</button></td>
+                <td><button onclick="sec(6)" class="rounded-3">6</button></td>
+                <td><button onclick="minus()" class="iphone-operation rounded-3">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="sec(1)" class="rounded-3">1</button></td>
+                <td><button onclick="sec(2)" class="rounded-3">2</button></td>
+                <td><button onclick="sec(3)" class="rounded-3">3</button></td>
+                <td><button onclick="plus()" class="iphone-operation rounded-3">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="del()" class="aaa rounded-3">Del</button></td>
+                <td><button onclick="sec(0)" class="rounded-3">0</button></td>
+                <td><button onclick="noqte()" class="rounded-3">,</button></td>
+                <td><button onclick="neticeIphone()" class="iphone-operation rounded-3">=</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="asset/script.js"></script>
+</body>
+
+</html>
